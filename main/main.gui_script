@@ -1,0 +1,54 @@
+-- Imports
+local defarc = require 'defarc.defarc'
+
+-- Variables
+local small_node = vmath.vector3(0.9)
+local normal_node = vmath.vector3(1)
+local options = {}
+
+
+function show_text_and_options()
+	-- Get and Set Text
+	local text = defarc.get_text()
+	local node = gui.get_node('Title')
+	gui.set_text(node, text)
+
+	-- Get and Set Options
+	options = defarc.get_options_table()
+	for i = 1, 3 do
+		local option_text = options[i] and options[i].label or ''
+		local option_node = gui.get_node('option'..i)
+		gui.set_text(option_node, option_text)
+	end
+end
+
+
+function init(self)
+	msg.post('.', 'acquire_input_focus')
+	defarc.load('/assets/project_settings.json')
+
+	local starting_element = defarc.get_starting_element_id()
+	defarc.select_element(starting_element)
+	show_text_and_options()
+end
+
+
+function on_input(self, action_id, action)
+	for i = 1, 3 do
+		local current_option_node = gui.get_node('option'..i)
+
+		if gui.pick_node(current_option_node, action.x, action.y) then
+			
+			if action.pressed then
+				gui.set_scale(current_option_node, small_node)
+				
+			elseif action.released then
+				gui.set_scale(current_option_node, normal_node)
+
+				-- Select Next Element
+				defarc.select_element(options[i].target_id)
+				show_text_and_options()
+			end
+		end
+	end
+end

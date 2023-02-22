@@ -1,0 +1,258 @@
+{
+    "startingElement": "6e5ba90b-079f-4f41-bbd4-36300d5a5cc3",
+    "boards": {
+        "2ad15ff6-f2ba-4f1d-9d9d-68938c683d7e": {
+            "name": "Root",
+            "root": true,
+            "children": [
+                "630fdb8a-48d6-473e-9974-2460f7eb2b41"
+            ]
+        },
+        "630fdb8a-48d6-473e-9974-2460f7eb2b41": {
+            "name": "Main Board",
+            "notes": [],
+            "jumpers": [],
+            "branches": [],
+            "elements": [
+                "6e5ba90b-079f-4f41-bbd4-36300d5a5cc3",
+                "4ede4d6d-20cc-4279-877c-e16e5245e5b7",
+                "4c4c3fff-5d46-48aa-8f19-5a8b382f9a7f",
+                "d76b9103-5e0a-47b3-9400-80b419e9b6dd",
+                "73310846-918d-4dfc-8828-b2dd4f100670",
+                "20b3e3b3-cfc1-48a2-bb60-85f923b70395",
+                "de462e6e-34dc-4134-a801-8ad1bcd13559",
+                "79dbef02-aa87-4e62-bd23-986758c78d46",
+                "d5cfa763-b850-4b57-a8c3-2a889a28c94e"
+            ],
+            "connections": [
+                "5080afe6-439f-46f9-89c4-2dc647118201",
+                "072e76fa-0835-4bef-b34c-90f9347406ab",
+                "a6be35f9-9a58-4adc-a628-f822e80981af",
+                "0e0ba2f2-f74a-49b0-bf20-f6cabfd200a2",
+                "5d82f00a-5fdc-49f4-9a09-6f5f3a446c6c",
+                "cd1ab8fd-415a-4158-b1d2-9a4ba1581167",
+                "d1bc48b9-7f74-4eed-be56-9a8b2f4e4c76",
+                "34e1efaf-077c-4bf0-bd2e-09e09b9df263",
+                "1e2911d2-a484-4da0-b3f2-b3cf8e570778",
+                "5585abec-feb0-4c55-90f0-86e418c52719"
+            ]
+        }
+    },
+    "notes": {},
+    "elements": {
+        "20b3e3b3-cfc1-48a2-bb60-85f923b70395": {
+            "theme": "orange",
+            "title": "<p>Attempt Assassination<\/p>",
+            "content": "<p>You await the cultist and monitor his every move, waiting for the right time to seize your chance. After a few mere minutes the cultist passes by your location with his back against you. Cunningly stepping forward quietly you hover your hand above his head and stab your enemy in the neck to avoid any difficult outcome of his death. Without his voice being heard and his body stumbles to the ground, you confirm your kill.<\/p>",
+            "outputs": [
+                "5585abec-feb0-4c55-90f0-86e418c52719"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "4c4c3fff-5d46-48aa-8f19-5a8b382f9a7f": {
+            "theme": "orange",
+            "title": "<p>Attempt Assassination<\/p>",
+            "content": "<p>You grip your blade as you hear the enemy closing in. Right before readying to pounce, the enemy stops in front of the stone. Silence reveals the foe's heavy breathing and you hold your own breath to not alert them of your position. After a few mere seconds the enemy continues on, passing your left. Swiftly you leap forward to silence the cultist while tearing his throat with your dagger. Quickly hiding the body behind a tree, you spot another cultist approaching.<\/p>",
+            "outputs": [
+                "0e0ba2f2-f74a-49b0-bf20-f6cabfd200a2",
+                "5d82f00a-5fdc-49f4-9a09-6f5f3a446c6c"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "4ede4d6d-20cc-4279-877c-e16e5245e5b7": {
+            "theme": "moss",
+            "title": "<p>Proceed Forward<\/p>",
+            "content": "<p>Slashing your way through shrubbery, the temple entrance appears before you. Braziers light up the entryway and you spot several cultists guarding it. In the distance you hear heavy footsteps approaching. Quickly you take cover behind a stone and await the enemy.<\/p>",
+            "outputs": [
+                "072e76fa-0835-4bef-b34c-90f9347406ab",
+                "a6be35f9-9a58-4adc-a628-f822e80981af"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "6e5ba90b-079f-4f41-bbd4-36300d5a5cc3": {
+            "theme": "moss",
+            "title": "<p>Tomb Entrance<\/p>",
+            "content": "<p>Your foe is not distant from you. Fresh blood trailing further into the jungle, indicating that your enemy is still wounded from the damage you inflicted upon them. Proceeding forward with haste, ancient ruins emerge from the jungle foliage. The same temple that holds the prophecy of the Blood Dragon. The red sunset pierces through the tropical leaves, indicating that night is soon upon you. The summoning nears completion, it must not be fullfilled. The prophecy and your destiny<strong> <\/strong>demands it.<\/p>",
+            "outputs": [
+                "5080afe6-439f-46f9-89c4-2dc647118201"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "73310846-918d-4dfc-8828-b2dd4f100670": {
+            "theme": "orange",
+            "title": "<p>Proceed Closer to Entrance<\/p>",
+            "content": "<p>With no time to lose, you attempt to near your destination. As the cultist decides to stop and look away, you seize the gap to sprint over to the next hiding spot. Right before you crouch down behind a stonewall, you hear someone calling out to you. \"HEY! Who goes there!\" The cultist cautiously treads closer to you, holding a spear and a torch.<\/p>",
+            "outputs": [
+                "34e1efaf-077c-4bf0-bd2e-09e09b9df263",
+                "1e2911d2-a484-4da0-b3f2-b3cf8e570778"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "79dbef02-aa87-4e62-bd23-986758c78d46": {
+            "theme": "gold",
+            "title": "<p>Sneak Away<\/p>",
+            "content": "<p>Trying to evade further complications, you look behind you and decide to continue forward. Hopefully the cultist will be slow enough to buy you some time with your escape. Swiftly continuing toward your destination, you find a new area to cover you. The burning light indicates that the cultist eventually showed up to your past hiding spot and the carrier decides to patrol the area, not looking your way.<\/p>",
+            "outputs": [],
+            "autoHeight": true,
+            "components": []
+        },
+        "d5cfa763-b850-4b57-a8c3-2a889a28c94e": {
+            "theme": "pink",
+            "title": "<p>Continue Forward<\/p>",
+            "content": "<p>You continue to follow the empty path were no enemies seem to be present. Sneaking behind decaying stone walls and trees, you evetually near your destination. Recognizing chatter behind one of the ruins you are currently hiding behind, you are alerted that more than two cultists are present.<\/p>",
+            "outputs": [],
+            "autoHeight": true,
+            "components": []
+        },
+        "d76b9103-5e0a-47b3-9400-80b419e9b6dd": {
+            "theme": "orange",
+            "title": "<p>Stay Hidden<\/p>",
+            "content": "<p>You decide to remain hidden, hoping for the best that the enemy will amble by without noticing you. As you hear the cultist approaching, you silence your breath and remain still. A shadow appears to your left and the footsteps become heavier before taking a stop. You feel the urge to regain your breath take a hold of you while your foe stands his ground. After a few seconds he wanders on and you gasp for air, clutching your blade. Then you hear yet another pair of steps procced towards you.<\/p>",
+            "outputs": [
+                "cd1ab8fd-415a-4158-b1d2-9a4ba1581167",
+                "d1bc48b9-7f74-4eed-be56-9a8b2f4e4c76"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "de462e6e-34dc-4134-a801-8ad1bcd13559": {
+            "theme": "gold",
+            "title": "<p>Attempt to Kill<\/p>",
+            "content": "<p>You grip your dagger and leap forward. Catching the enemy offguard, you push his spear away with your forearm before grabbing your weapon with both hands and forcing the blade into the enemy's stomach. Wheezing and coughing, the enemy proceeds to let off a scream before you end his life. Supporting yourself back on to your feet, you notice in the distance that three other guards begin running towards the location.<\/p>",
+            "outputs": [],
+            "autoHeight": true,
+            "components": []
+        }
+    },
+    "jumpers": {},
+    "connections": {
+        "072e76fa-0835-4bef-b34c-90f9347406ab": {
+            "type": "Bezier",
+            "label": "<p>Attempt Assassination<\/p>",
+            "theme": "orange",
+            "sourceid": "4ede4d6d-20cc-4279-877c-e16e5245e5b7",
+            "targetid": "4c4c3fff-5d46-48aa-8f19-5a8b382f9a7f",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "0e0ba2f2-f74a-49b0-bf20-f6cabfd200a2": {
+            "type": "Bezier",
+            "label": "<p>Attempt Assassination<\/p>",
+            "theme": "orange",
+            "sourceid": "4c4c3fff-5d46-48aa-8f19-5a8b382f9a7f",
+            "targetid": "20b3e3b3-cfc1-48a2-bb60-85f923b70395",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "1e2911d2-a484-4da0-b3f2-b3cf8e570778": {
+            "type": "Bezier",
+            "label": "<p>Sneak Away<\/p>",
+            "theme": "gold",
+            "sourceid": "73310846-918d-4dfc-8828-b2dd4f100670",
+            "targetid": "79dbef02-aa87-4e62-bd23-986758c78d46",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "34e1efaf-077c-4bf0-bd2e-09e09b9df263": {
+            "type": "Bezier",
+            "label": "<p>Attempt to Kill<\/p>",
+            "theme": "gold",
+            "sourceid": "73310846-918d-4dfc-8828-b2dd4f100670",
+            "targetid": "de462e6e-34dc-4134-a801-8ad1bcd13559",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "5080afe6-439f-46f9-89c4-2dc647118201": {
+            "type": "Bezier",
+            "label": "<p>Proceed Forward<\/p>",
+            "theme": "moss",
+            "sourceid": "6e5ba90b-079f-4f41-bbd4-36300d5a5cc3",
+            "targetid": "4ede4d6d-20cc-4279-877c-e16e5245e5b7",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "5585abec-feb0-4c55-90f0-86e418c52719": {
+            "type": "Bezier",
+            "label": "<p>Continue Forward<\/p>",
+            "theme": "pink",
+            "sourceid": "20b3e3b3-cfc1-48a2-bb60-85f923b70395",
+            "targetid": "d5cfa763-b850-4b57-a8c3-2a889a28c94e",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "5d82f00a-5fdc-49f4-9a09-6f5f3a446c6c": {
+            "type": "Bezier",
+            "label": "<p>Proceed Closer to Entrance<\/p>",
+            "theme": "orange",
+            "sourceid": "4c4c3fff-5d46-48aa-8f19-5a8b382f9a7f",
+            "targetid": "73310846-918d-4dfc-8828-b2dd4f100670",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "a6be35f9-9a58-4adc-a628-f822e80981af": {
+            "type": "Bezier",
+            "label": "<p>Stay Hidden<\/p>",
+            "theme": "orange",
+            "sourceid": "4ede4d6d-20cc-4279-877c-e16e5245e5b7",
+            "targetid": "d76b9103-5e0a-47b3-9400-80b419e9b6dd",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "cd1ab8fd-415a-4158-b1d2-9a4ba1581167": {
+            "type": "Bezier",
+            "label": "<p>Proceed Closer to Entrance<\/p>",
+            "theme": "orange",
+            "sourceid": "d76b9103-5e0a-47b3-9400-80b419e9b6dd",
+            "targetid": "73310846-918d-4dfc-8828-b2dd4f100670",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "d1bc48b9-7f74-4eed-be56-9a8b2f4e4c76": {
+            "type": "Bezier",
+            "label": "<p>Attempt Assassination<\/p>",
+            "theme": "orange",
+            "sourceid": "d76b9103-5e0a-47b3-9400-80b419e9b6dd",
+            "targetid": "20b3e3b3-cfc1-48a2-bb60-85f923b70395",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        }
+    },
+    "branches": {},
+    "components": {
+        "65005bda-15d0-41c5-867f-68c118829f08": {
+            "name": "Root",
+            "root": true,
+            "children": []
+        }
+    },
+    "attributes": {},
+    "assets": {
+        "647d0495-341f-42b2-8788-b47dace22bf8": {
+            "root": true,
+            "children": []
+        }
+    },
+    "variables": {
+        "747d0495-341f-42b2-8788-b47dace22bf8": {
+            "root": true,
+            "children": []
+        }
+    },
+    "conditions": {},
+    "name": "Nocturnal",
+    "cover": null
+}
